@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tic-Tac-toe game</title>
+        <link rel="stylesheet" href="XO-game.css">
+        <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <script src="js/jQuery 3.4.1.js"></script>
+        <script src="XO-game.js"></script>
+    </head>
+    <body>
+        <div class="text_center" id="box">
+            <header>
+                <h1>Welcome to tic tac toe game</h1>
+            </header>
+            <aside>
+                
+            </aside>
+        <div id="message"></div>
+            <p id="score">
+                SCORE: <span class="player">PLAYER:</span> <span class="score_player">0</span>  <span class="bot">BOT:</span> <span class="score_bot">0</span>
+            </p>
+            
+            <ul id="gamebox">
+                <li class="box" id="1">#</li>
+                <li class="box" id="2">#</li>
+                <li class="box" id="3">#</li>
+                <li class="box" id="4">#</li>
+                <li class="box" id="5">#</li>
+                <li class="box" id="6">#</li>
+                <li class="box" id="7">#</li>
+                <li class="box" id="8">#</li>
+                <li class="box" id="9">#</li>
+            </ul>
+        <div class="clearbox"></div>
+        <footer>
+            <button id="reset">RESTART</button>
+            <button id="reload" onclick="document.location.reload(true)">Change value</button>
+            <button id="multiplayer" onclick="window.location.href ='XO.html'">Multiplayer</button>
+            <button id="mute" onclick="enablemute()" type="button">Mute sound</button>
+            <button id="unmute" onclick="desablemute()" type="button">Enable sound</button>
+            <button id="checksound" onclick="checksound()" type="button">sound status</button>
+            <audio controls play>
+                <source src="99Sounds Cinematic Loops DEMO.ogg" type="audio/ogg" autoplay=>
+                <source src="99Sounds Cinematic Loops DEMO.mp3" type="audio/mpeg">
+                    your browser doesn't support the audio element ,sorry!!!
+            </audio>
+            
+        </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,144 @@
+#box{
+    width: 450px;
+    height: 400*3px;
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+}
+body{
+    background-image:url("metro_moon-wallpaper-1920x1080.jpg");
+    
+}
+#gamebox{
+    
+    float: left;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{ 
+    font-size: 110px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 120px;
+    height: 120px;
+    background-color:#666;
+    list-style: none;
+    text-align: center;
+    margin: 5px;
+    color: #f0e6ff;
+    border-radius: 25px;
+}
+h1{
+    font-family: 'Tangerine', serif;
+    font-size: 75px;
+    text-align: center;
+    color: #f0e6ff;
+}
+.clearbox{
+    clear: both;
+}
+#gamebox li:hover ,#reset:hover ,input:hover ,#reload:hover ,#multiplayer:hover ,#mute:hover ,#unmute:hover ,#checksound:hover{
+    cursor: pointer;
+    background: #000;
+}
+#message{
+    /* height:60px; */
+    /* background-color: #666; */
+    color: #f0e6ff;
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-size: 40px;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+#reset{
+    text-align: center;
+    border: 0;
+    background: #666;
+    color: #f0e6ff;
+    width:33%;
+    height:60px;
+    
+    border-radius: 10px;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+}
+#reload{
+    text-align: center;
+    border: 0;
+    background: #666;
+    color: #f0e6ff;
+    width:33%;
+    height:60px;
+    border-radius: 10px;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+}
+#multiplayer{
+    text-align: center;
+    border: 0;
+    background: #666;
+    color: #f0e6ff;
+    width:30%;
+    height:60px;
+    margin: 5px;
+    border-radius: 10px;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px; 
+    margin-left:-1px;
+}
+#score{
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Special Elite', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: #f0e6ff;
+    margin-left: 65px;
+    margin-bottom: -15px;
+}
+.player{
+    margin-left: 30px;
+}
+.bot{
+    margin-left: 30px;
+}
+#mute{
+    text-align: center;
+    border: 0;
+    background: #666;
+    color: #f0e6ff;
+    width:33%;
+    height:60px;
+    margin: 5px;
+    border-radius: 10px;
+    font-family: 'Special Elite', cursive;
+    font-size: 15px; 
+}
+#unmute{
+    text-align: center;
+    border: 0;
+    background: #666;
+    color: #f0e6ff;
+    width:33%;
+    height:60px;
+    margin: 5px;
+    border-radius: 10px;
+    font-family: 'Special Elite', cursive;
+    font-size: 15px; 
+    margin-left:-5px;
+}
+#checksound{
+    text-align: center;
+    border: 0;
+    background: #666;
+    color: #f0e6ff;
+    width:33%;
+    height:60px;
+    margin: 5px;
+    border-radius: 10px;
+    font-family: 'Special Elite', cursive;
+    font-size: 15px; 
+}

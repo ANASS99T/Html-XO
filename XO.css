@@ -1,0 +1,58 @@
+h1{
+font-family:Impact, Charcoal, sans-serif;
+font-size:50px;
+font-style:italic;
+color: #FF8900;
+position: relative;
+left: 540px;
+text-decoration:underline;
+}
+.s1{
+    position:relative;
+    left: 200px;
+    text-decoration:underline;
+}
+.s2{
+    position:relative;
+    top:-50px;
+    left: 1000px;
+    text-decoration:underline;
+}
+body {
+    background-image:url("téléchargement.jpg");
+    background-repeat:repeat;
+    position: fixed;
+}
+.score1{
+    position:relative;
+    top: -280px;
+    left: 520px;
+    text-decoration:underline;
+}
+.score2{
+    position:relative;
+    top: -280px;
+    left: -340px;
+    text-decoration:underline;
+}
+
+.universe {
+    position:relative;
+    left: 500px;
+}
+
+.universe1 {
+    position:relative;
+    top:-18px;
+    left: 500px;
+}
+.Gameover {
+    position: relative;
+    top:120px;
+    left: 300px;
+}
+.admin {
+     position: relative;
+    top:140px;
+    left: 800px;
+}
